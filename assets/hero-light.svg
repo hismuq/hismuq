@@ -1,6 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="t d">
   <title id="t">hismuq: building intelligent systems where medicine meets AI</title>
-  <desc id="d">Wordmark banner for Syed Muqeet Ahmed with a minimal request, authorize, answer trace.</desc>
+  <desc id="d">Wordmark banner for Syed Muqeet Ahmed. A small diagram shows a request being authorized, then either answered or escalated. The signal animation is slow and optional.</desc>
+  <style>.m{opacity:0;fill:none;transform-box:fill-box;transform-origin:center}
+.sig{stroke:#2747e0;stroke-width:3;stroke-linecap:round;stroke-dasharray:7 200;animation-duration:24s;animation-iteration-count:infinite;animation-timing-function:linear}
+.sa{animation-name:sa}.sb{animation-name:sb}.sc{animation-name:sc}
+.glow{animation-duration:24s;animation-iteration-count:infinite;animation-timing-function:ease-in-out}
+.rq{fill:#2747e0;animation-name:rq}.an{fill:#2747e0;animation-name:an}.es{fill:#5b6475;animation-name:es}
+.ring{stroke:#2747e0;stroke-width:1.5;animation:ring 24s ease-out infinite}
+@keyframes sa{0%{opacity:0;stroke-dashoffset:8}0.4%{opacity:1;stroke-dashoffset:8}8%{opacity:1;stroke-dashoffset:-100}8.4%{opacity:0;stroke-dashoffset:-100}50%{opacity:0;stroke-dashoffset:8}50.4%{opacity:1;stroke-dashoffset:8}58%{opacity:1;stroke-dashoffset:-100}58.4%{opacity:0;stroke-dashoffset:-100}100%{opacity:0;stroke-dashoffset:-100}}@keyframes sb{0%{opacity:0;stroke-dashoffset:8}8%{opacity:0;stroke-dashoffset:8}8.4%{opacity:1;stroke-dashoffset:8}20%{opacity:1;stroke-dashoffset:-100}20.4%{opacity:0;stroke-dashoffset:-100}100%{opacity:0;stroke-dashoffset:-100}}@keyframes sc{0%{opacity:0;stroke-dashoffset:8}58%{opacity:0;stroke-dashoffset:8}58.4%{opacity:1;stroke-dashoffset:8}70%{opacity:1;stroke-dashoffset:-100}70.4%{opacity:0;stroke-dashoffset:-100}100%{opacity:0;stroke-dashoffset:-100}}
+@keyframes rq{0%{opacity:0}1.5%{opacity:0.85}5%{opacity:0}50%{opacity:0}51.5%{opacity:0.85}55%{opacity:0}100%{opacity:0}}@keyframes an{0%{opacity:0}19%{opacity:0}24.1%{opacity:0.85}36%{opacity:0}100%{opacity:0}}@keyframes es{0%{opacity:0}69%{opacity:0}74.1%{opacity:0.85}86%{opacity:0}100%{opacity:0}}
+@keyframes ring{0%{opacity:0;transform:scale(1)}7%{opacity:0;transform:scale(1)}7.5%{opacity:.55;transform:scale(1)}17%{opacity:0;transform:scale(3)}57%{opacity:0;transform:scale(1)}57.5%{opacity:.55;transform:scale(1)}67%{opacity:0;transform:scale(3)}100%{opacity:0;transform:scale(1)}}
+@media (prefers-reduced-motion:reduce){.m{animation:none!important;opacity:0!important}}</style>
   <defs>
     <pattern id="g" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#d7dce6" stroke-width="1" opacity=".55"/></pattern>
     <linearGradient id="f" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset="1" stop-color="#ffffff" stop-opacity="1"/></linearGradient>
@@ -16,10 +26,17 @@
   </g>
   <g transform="translate(790 118)" fill="none" stroke="#d7dce6" stroke-width="1.5">
     <path d="M0 40H120M120 40V0H240M120 40V80H240" stroke="#2747e0" stroke-opacity=".7"/>
+    <path class="m sig sa" pathLength="100" d="M0 40H120"/>
+    <path class="m sig sb" pathLength="100" d="M120 40V0H240"/>
+    <path class="m sig sc" pathLength="100" d="M120 40V80H240"/>
     <circle cx="0" cy="40" r="7" fill="#ffffff" stroke="#2747e0" stroke-width="2"/>
     <circle cx="120" cy="40" r="7" fill="#2747e0" stroke="#2747e0"/>
     <circle cx="240" cy="0" r="7" fill="#ffffff" stroke="#2747e0" stroke-width="2"/>
     <circle cx="240" cy="80" r="7" fill="#ffffff" stroke="#5b6475" stroke-width="2"/>
+    <circle class="m glow rq" cx="0" cy="40" r="7" stroke="none"/>
+    <circle class="m ring" cx="120" cy="40" r="7"/>
+    <circle class="m glow an" cx="240" cy="0" r="7" stroke="none"/>
+    <circle class="m glow es" cx="240" cy="80" r="7" stroke="none"/>
     <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#5b6475" stroke="none">
       <text x="-8" y="68">request</text>
       <text x="92" y="116">authorize</text>
