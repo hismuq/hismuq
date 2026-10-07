@@ -5,176 +5,88 @@
   <source media="(prefers-color-scheme: light) and (max-width: 640px)" srcset="assets/hero-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
-  <img src="assets/hero-dark.svg" alt="hismuq live identity console for Syed Muqeet Ahmed. An abstract particle mark of the hismuq wordmark initial, crossed by a heartbeat signal and wired with agent nodes, is scanned, analysed, dissolves and reconstructs beside a system info panel: AI engineer and systems builder, focus AI, healthcare and software, core agents, RAG, ML and EHR, based in Hyderabad, India." width="100%">
+  <img src="assets/hero-dark.svg" alt="Animated Hismuq identity console showing an abstract particle mark, AI and healthcare systems metadata, and a live runtime state." width="100%">
 </picture>
 
 </div>
 
-I build AI for healthcare software: assistants, RAG and evaluation systems on top of clinical workflows and EHR portals. At **HealthVision**, a behavioral health EHR, that means software where identity, scope and escalation are explicit, because clinicians and patients have to be able to trust it.
+**AI engineer building healthcare software, intelligent agents, and reliable ML systems.**
 
-<sub>HYDERABAD, INDIA &nbsp;·&nbsp; AI × HEALTHCARE × SOFTWARE &nbsp;·&nbsp; AI & ML, OSMANIA UNIVERSITY 2026</sub>
+I work on production healthcare software and EHR workflows, and on AI assistants that have to stay inside an authorized scope. My focus is the engineering around the model: tools, guardrails, evaluation and escalation. Alongside the production work I run small research experiments on how clinical assistants should stop, refuse and hand off.
 
-<p>
-  <a href="https://hismuq.vercel.app"><b>Portfolio</b></a> &nbsp;·&nbsp;
-  <a href="https://linkedin.com/in/hismuq"><b>LinkedIn</b></a> &nbsp;·&nbsp;
-  <a href="mailto:hismuq@gmail.com"><b>Email</b></a> &nbsp;·&nbsp;
-  <a href="https://github.com/hismuq?tab=repositories"><b>Repositories</b></a>
-</p>
+## Building
 
-```text
-NOW ────────────────────────────────
-healthcare AI · agentic systems
-RAG · evaluation · reliable AI
+### Healthcare AI
+Production healthcare software and AI-assisted workflows across EHR experiences.
 
-STATUS (conceptual) ────────────────
-●  AI systems     active
-●  healthcare     building
-○  research       exploring
-●  hismuq         online
-```
+### Agent systems
+Assistants that combine retrieval, tools, authorization boundaries and bounded outcomes.
 
----
-
-<sub>HISMUQ / NOW</sub>
-
-### Currently building
-
-| | |
-|:--|:--|
-| <sub>01 · PRACTICE</sub><br>**[hismuq](https://hismuq.vercel.app)** | The through-line: my engineering and research practice in clinical AI. The portfolio is where the case studies live. |
-| <sub>02 · SYSTEM</sub><br>**Sparkle AI** | A patient-facing assistant in HealthVision's portal. It books and navigates, and knows when to stop, redirect or escalate. |
-| <sub>03 · SYSTEM</sub><br>**HealthVision** | A behavioral health EHR with four portals (Provider, Care Team, Front Desk, Patient) over one clinical record. |
-
----
-
-<sub>HISMUQ / SYSTEMS</sub>
-
-### What I build
+### Reliability
+Evaluation, guardrails, failure handling and escalation for systems that cannot safely be "almost right."
 
 <div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/system-flow-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/system-flow-light.svg">
-  <img src="assets/system-flow-light.svg" alt="Diagram: a user request reaches an AI agent. Retrieval, tools and guardrails shape what the agent can do. A healthcare workflow follows, ending in a bounded outcome: an answer or an escalation." width="420">
+  <img src="assets/system-flow-light.svg" alt="Diagram: a user request reaches an AI agent. Retrieval, tools and guardrails shape what the agent can do. A healthcare workflow follows, ending in a bounded outcome: an answer or an escalation." width="360">
 </picture>
 
 </div>
 
-<sub>A request reaches an agent. Retrieval, tools and guardrails shape what it can do, the healthcare workflow decides what happens next, and the outcome is bounded: an answer or an escalation. A conceptual diagram, not any deployed architecture.</sub>
+<sub>A conceptual diagram of the pattern I design for, not the architecture of any deployed or proprietary system.</sub>
 
-| | | |
-|:--|:--|:--|
-| **01** | **Intelligent systems** | Agents · RAG · LLM applications · evaluation |
-| **02** | **Healthcare software** | EHR portals · clinical workflows · patient-facing systems |
-| **03** | **Reliability** | Guardrails · authorization boundaries · regression testing |
-| **04** | **Research** | Machine learning · generative models · human-centered healthcare AI |
+## Selected work
 
----
+**Sparkle AI** · patient-facing assistant · *proprietary*<br>
+Authorization bound to the signed-in patient, booking state that survives interruption, and explicit stop and escalation paths for scope and distress. [Sparkle AI case study](https://hismuq.vercel.app/work/sparkle-ai)
 
-<sub>HISMUQ / WORK</sub>
+**HealthVision** · behavioral health EHR · *proprietary*<br>
+Production fixes across four role-based portals, checked against saved, visible and downstream state, with responsive and accessibility audits. [HealthVision case study](https://hismuq.vercel.app/work/healthvision)
 
-### Selected work
+**Refusal Without Abandonment** · research instrument · *public, preliminary*<br>
+A deterministic benchmark of 12 synthetic scenarios comparing generic and evidence-bound refusal on six invariants. It tests an interface contract, not a model, and involves no human subjects or clinical data. [Benchmark](https://hismuq.vercel.app/lab/refusal-benchmark) · [Methods](https://hismuq.vercel.app/lab/refusal-benchmark/methods)
 
-<p>
-<b>01 &nbsp; Sparkle AI</b> &nbsp;<sub>CLINICAL AI · PROPRIETARY</sub><br>
-A patient-facing booking assistant. Authorization is bound to the signed-in patient, booking state survives interruptions, and scope and distress paths route to a safe outcome.<br>
-<sub>React · TypeScript · ASP.NET Core · Vitest &nbsp;→&nbsp; <a href="https://hismuq.vercel.app">portfolio</a></sub>
-</p>
+Some production healthcare systems I work on are proprietary, so this profile focuses on engineering patterns rather than internal implementation details.
 
-<p>
-<b>02 &nbsp; HealthVision</b> &nbsp;<sub>HEALTHCARE SOFTWARE · PROPRIETARY</sub><br>
-Role-aware engineering across four portals, checked against role-specific data, viewports and accessibility audits.<br>
-<sub>React · TypeScript · ASP.NET Core · Azure DevOps &nbsp;→&nbsp; <a href="https://hismuq.vercel.app">portfolio</a></sub>
-</p>
+## Approach
 
-<p>
-<b>03 &nbsp; MedGAN</b> &nbsp;<sub>RESEARCH · OPEN</sub><br>
-Generative models for synthetic medical images, to improve diagnostic robustness when real data is limited, imbalanced or privacy-restricted.<br>
-<sub>Python · PyTorch · SAM &nbsp;→&nbsp; <a href="https://github.com/hismuq/B.E-Major-Project">repository</a></sub>
-</p>
+**Scope before generation.** Know what the system must not answer, and who takes over when it stops.
 
-<p>
-<b>04 &nbsp; FlyRank ML</b> &nbsp;<sub>APPLIED ML · OPEN</sub><br>
-Search-ranking models on anonymized data: task framing, feature-leakage checks, baselines and validation audits.<br>
-<sub>Python · DuckDB · Colab &nbsp;→&nbsp; <a href="https://github.com/hismuq/flyrank-ml-internship">repository</a></sub>
-</p>
+**Evidence before confidence.** Trust in healthcare software comes from tests, traces and human review, not from assertion.
 
-<p>
-<b>05 &nbsp; hismuq</b> &nbsp;<sub>DESIGN ENGINEERING</sub><br>
-An engineering portfolio built for keyboard use, reduced motion and speed.<br>
-<sub>Next.js · TypeScript &nbsp;→&nbsp; <a href="https://hismuq.vercel.app">visit</a></sub>
-</p>
+**Failure gets a bounded outcome.** Every stop has a designed path: a refusal, a redirect or an escalation, never a catch-all answer.
 
-<sub>Sparkle AI and HealthVision are proprietary, so their links go to written case studies, not code.</sub>
+## Research direction
 
----
+I'm interested in making healthcare AI systems more reliable under real workflow constraints. These are open research questions, not published results, and none implies clinical validation.
 
-<sub>HISMUQ / PRINCIPLES</sub>
+**01**  How do we evaluate whether a clinical assistant stays inside its authorized scope?
 
-### How I build
+**02**  How should retrieval, tools and guardrails interact when an agent encounters uncertainty or conflicting evidence?
 
-<p>
-<b>01 &nbsp; Start from the workflow</b><br>
-<sub>Intelligence earns its place by fixing a real task for a real person, not by showing off a model.</sub>
-</p>
+**03**  How can healthcare AI systems fail safely instead of merely producing more confident answers?
 
-<p>
-<b>02 &nbsp; Know the boundary</b><br>
-<sub>A system should know what it must not answer, and who takes over when it stops.</sub>
-</p>
+Working notes: [research brief](https://hismuq.vercel.app/research).
 
-<p>
-<b>03 &nbsp; Show the evidence</b><br>
-<sub>Trust in healthcare software comes from tests, traces and human review, not from assertion.</sub>
-</p>
-
----
-
-<sub>HISMUQ / STACK</sub>
-
-### Engineering stack
+## Stack
 
 | | |
 |:--|:--|
-| **Languages** | Python · TypeScript · C# · SQL |
-| **AI / ML** | PyTorch · TensorFlow · scikit-learn · LLM APIs · RAG · Azure AI |
-| **Backend** | ASP.NET Core · REST APIs |
-| **Frontend** | React · TypeScript · Vitest |
-| **Platform** | Azure · Azure DevOps · Git · Vercel |
-| **Data** | DuckDB · Pandas · NumPy · Jupyter |
+| **Languages** | Python · TypeScript · C# |
+| **ML and data** | PyTorch · scikit-learn · pandas · DuckDB |
+| **Product and platform** | React · Next.js · ASP.NET Core · Vitest · Azure DevOps |
+| **Domain** | EHR · patient workflows · clinical AI safety |
 
----
-
-<sub>HISMUQ / RESEARCH</sub>
-
-### Research and interests
-
-- **Healthcare AI:** assistants that stay inside their scope in clinical settings
-- **AI safety and guardrails:** authorization, distress handling, escalation
-- **RAG and LLM systems:** grounding and evaluation
-- **EHR systems:** clinical records that stay coherent across roles
-- **Synthetic data:** privacy-preserving medical imaging
-
----
-
-<sub>Most of my recent work is in private, employer-owned repositories, so the public record is the [repositories](https://github.com/hismuq?tab=repositories) above and the case studies on my [portfolio](https://hismuq.vercel.app).</sub>
+<sub>ML tooling is from my public repositories: [MedGAN](https://github.com/hismuq/B.E-Major-Project) (synthetic medical imaging, university project) and [FlyRank ML](https://github.com/hismuq/flyrank-ml-internship) (internship coursework on anonymized search data).</sub>
 
 ---
 
 <div align="center">
 
+[Portfolio](https://hismuq.vercel.app) · [LinkedIn](https://linkedin.com/in/hismuq) · [Email](mailto:hismuq@gmail.com)
+
 **Software clinicians trust cannot be almost right.**
 
-<sub><a href="mailto:hismuq@gmail.com">hismuq@gmail.com</a> &nbsp;·&nbsp; <a href="https://hismuq.vercel.app">hismuq.vercel.app</a></sub>
-
 </div>
-
-```text
-$ whoami
-hismuq
-$ focus
-healthcare × AI × systems
-$ status
-building
-```
