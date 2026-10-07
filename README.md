@@ -10,9 +10,9 @@
 
 </div>
 
-**AI engineer building healthcare software, intelligent agents, and reliable ML systems.**
+**I build AI systems for healthcare workflows where retrieval, tools, authorization, evaluation and escalation matter as much as the model itself.**
 
-I work on production healthcare software and EHR workflows, and on AI assistants that have to stay inside an authorized scope. My focus is the engineering around the model: tools, guardrails, evaluation and escalation. Alongside the production work I run small research experiments on how clinical assistants should stop, refuse and hand off.
+I work on production healthcare software and EHR workflows, and on assistants that have to stay inside an authorized scope. Alongside that I run small research experiments on how clinical assistants should stop, refuse and hand off.
 
 ## Building
 
@@ -23,7 +23,7 @@ Production healthcare software and AI-assisted workflows across EHR experiences.
 Assistants that combine retrieval, tools, authorization boundaries and bounded outcomes.
 
 ### Reliability
-Evaluation, guardrails, failure handling and escalation for systems that cannot safely be "almost right."
+Evaluation, guardrails, failure handling and escalation for systems that need clear boundaries.
 
 <picture>
   <source media="(prefers-color-scheme: dark) and (max-width: 640px)" srcset="assets/runtime-trace-mobile-dark.svg">
@@ -86,6 +86,6 @@ Working notes: [research brief](https://hismuq.vercel.app/research).
 
 [Portfolio](https://hismuq.vercel.app) · [LinkedIn](https://linkedin.com/in/hismuq) · [Email](mailto:hismuq@gmail.com)
 
-**Software clinicians trust cannot be almost right.**
+**Answer when you can. Escalate when you can't.**
 
 </div>
