@@ -5,7 +5,7 @@
   <source media="(prefers-color-scheme: light) and (max-width: 640px)" srcset="assets/hero-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
-  <img src="assets/hero-dark.svg" alt="Animated hismuq identity console showing an abstract particle mark, AI and healthcare systems metadata, and a live runtime state." width="100%">
+  <img src="assets/hero-dark.svg" alt="Animated Hismuq identity console showing an abstract particle mark, AI and healthcare systems metadata, and a live runtime state." width="100%">
 </picture>
 
 </div>
