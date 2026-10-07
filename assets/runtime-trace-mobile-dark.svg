@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="96" viewBox="0 0 480 96" role="img" aria-labelledby="t d">
+  <title id="t">Hismuq reliability runtime trace</title>
+  <desc id="d">A horizontal trace of five steps: request, ground, act, check, then outcome.</desc>
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" text-anchor="middle">
+    <path d="M12 46H468" fill="none" stroke="#3a4156" stroke-width="1.5"/>
+    <path d="M336 46H432" fill="none" stroke="#6b86ff" stroke-width="1.5"/>
+    <path d="M96 40V52M192 40V52M288 40V52M384 40V52" fill="none" stroke="#3a4156" stroke-width="1.5"/>
+    <circle cx="48" cy="46" r="5" fill="none" stroke="#8a93a6" stroke-width="1.5"/>
+    <circle cx="144" cy="46" r="5" fill="none" stroke="#8a93a6" stroke-width="1.5"/>
+    <circle cx="240" cy="46" r="5" fill="none" stroke="#8a93a6" stroke-width="1.5"/>
+    <circle cx="336" cy="46" r="5" fill="none" stroke="#6b86ff" stroke-width="1.5"/>
+    <circle cx="432" cy="46" r="6" fill="#6b86ff"/>
+    <g font-size="13" letter-spacing="1" fill="#8a93a6"><text x="48" y="24">01</text><text x="144" y="24">02</text><text x="240" y="24">03</text><text x="336" y="24" fill="#6b86ff">04</text><text x="432" y="24" fill="#6b86ff">05</text></g>
+    <g font-size="16" font-weight="600" letter-spacing="1" fill="#f2f4f8"><text x="48" y="80">REQUEST</text><text x="144" y="80">GROUND</text><text x="240" y="80">ACT</text><text x="336" y="80">CHECK</text><text x="432" y="80">OUTCOME</text></g>
+  </g>
+</svg>

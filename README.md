@@ -25,17 +25,16 @@ Assistants that combine retrieval, tools, authorization boundaries and bounded o
 ### Reliability
 Evaluation, guardrails, failure handling and escalation for systems that cannot safely be "almost right."
 
-<div align="center">
-
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/system-flow-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/system-flow-light.svg">
-  <img src="assets/system-flow-light.svg" alt="Diagram: a user request reaches an AI agent. Retrieval, tools and guardrails shape what the agent can do. A healthcare workflow follows, ending in a bounded outcome: an answer or an escalation." width="360">
+  <source media="(prefers-color-scheme: dark) and (max-width: 640px)" srcset="assets/runtime-trace-mobile-dark.svg">
+  <source media="(prefers-color-scheme: light) and (max-width: 640px)" srcset="assets/runtime-trace-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/runtime-trace-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/runtime-trace-light.svg">
+  <img
+    src="assets/runtime-trace-dark.svg"
+    alt="Hismuq reliability runtime trace from request through grounding, action and boundary checking to answer or escalation."
+  >
 </picture>
-
-</div>
-
-<sub>A conceptual diagram of the pattern I design for, not the architecture of any deployed or proprietary system.</sub>
 
 ## Selected work
 
