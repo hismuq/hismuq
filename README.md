@@ -38,14 +38,17 @@ Evaluation, guardrails, failure handling and escalation for systems that need cl
 
 ## Selected work
 
-**Sparkle AI** · patient-facing assistant · *proprietary*<br>
-Authorization bound to the signed-in patient, booking state that survives interruption, and explicit stop and escalation paths for scope and distress. [Sparkle AI case study](https://hismuq.vercel.app/work/sparkle-ai)
+**01 · Sparkle AI**<br>
+Patient-facing assistant · behavioral-health EHR · *proprietary*<br>
+Bounded booking and care-navigation workflows, with authorization bound to the signed-in patient and explicit stop and escalation paths. [Sparkle AI case study →](https://hismuq.vercel.app/work/sparkle-ai)
 
-**HealthVision** · behavioral health EHR · *proprietary*<br>
-Production fixes across four role-based portals, checked against saved, visible and downstream state, with responsive and accessibility audits. [HealthVision case study](https://hismuq.vercel.app/work/healthvision)
+**02 · HealthVision**<br>
+Behavioral-health EHR · four role-based portals · *proprietary*<br>
+Production engineering where the screen, the saved record and downstream state have to agree, checked across roles, viewports and accessibility audits. [HealthVision case study →](https://hismuq.vercel.app/work/healthvision)
 
-**Refusal Without Abandonment** · research instrument · *public, preliminary*<br>
-A deterministic benchmark of 12 synthetic scenarios comparing generic and evidence-bound refusal on six invariants. It tests an interface contract, not a model, and involves no human subjects or clinical data. [Benchmark](https://hismuq.vercel.app/lab/refusal-benchmark) · [Methods](https://hismuq.vercel.app/lab/refusal-benchmark/methods)
+**03 · Refusal Without Abandonment**<br>
+Research instrument · *public, preliminary*<br>
+A deterministic benchmark of how an assistant's refusal and escalation contracts keep scope, context and next action visible. 12 synthetic scenarios; tests the interface contract, not a model. [Benchmark →](https://hismuq.vercel.app/lab/refusal-benchmark) · [Methods →](https://hismuq.vercel.app/lab/refusal-benchmark/methods)
 
 Some production healthcare systems I work on are proprietary, so this profile focuses on engineering patterns rather than internal implementation details.
 
