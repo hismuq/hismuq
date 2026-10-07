@@ -1,9 +1,11 @@
 <div align="center">
 
 <picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 640px)" srcset="assets/hero-mobile-dark.svg">
+  <source media="(prefers-color-scheme: light) and (max-width: 640px)" srcset="assets/hero-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
-  <img src="assets/hero-light.svg" alt="hismuq. Building intelligent systems where medicine meets AI. A small diagram shows a request being authorized, then answered or escalated." width="100%">
+  <img src="assets/hero-dark.svg" alt="hismuq live identity console for Syed Muqeet Ahmed. An abstract particle mark of the hismuq wordmark initial, crossed by a heartbeat signal and wired with agent nodes, is scanned, analysed, dissolves and reconstructs beside a system info panel: AI engineer and systems builder, focus AI, healthcare and software, core agents, RAG, ML and EHR, based in Hyderabad, India." width="100%">
 </picture>
 
 </div>
