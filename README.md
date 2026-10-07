@@ -38,37 +38,52 @@ Evaluation, guardrails, failure handling and escalation for systems that need cl
 
 ## Selected work
 
-**01 · Sparkle AI**<br>
-Patient-facing assistant · behavioral-health EHR · *proprietary*<br>
-Bounded booking and care-navigation workflows, with authorization bound to the signed-in patient and explicit stop and escalation paths. [Sparkle AI case study →](https://hismuq.vercel.app/work/sparkle-ai)
+### 01 · SPARKLE AI
+<sub>PATIENT-FACING ASSISTANT · BEHAVIORAL-HEALTH EHR · PROPRIETARY</sub>
 
-**02 · HealthVision**<br>
-Behavioral-health EHR · four role-based portals · *proprietary*<br>
-Production engineering where the screen, the saved record and downstream state have to agree, checked across roles, viewports and accessibility audits. [HealthVision case study →](https://hismuq.vercel.app/work/healthvision)
+Bounded booking and care-navigation workflows, with authorization bound to the signed-in patient and explicit stop and escalation paths.
 
-**03 · Refusal Without Abandonment**<br>
-Research instrument · *public, preliminary*<br>
-A deterministic benchmark of how an assistant's refusal and escalation contracts keep scope, context and next action visible. 12 synthetic scenarios; tests the interface contract, not a model. [Benchmark →](https://hismuq.vercel.app/lab/refusal-benchmark) · [Methods →](https://hismuq.vercel.app/lab/refusal-benchmark/methods)
+↳ [Sparkle AI case study](https://hismuq.vercel.app/work/sparkle-ai)
+
+### 02 · HEALTHVISION
+<sub>BEHAVIORAL-HEALTH EHR · FOUR ROLE-BASED PORTALS · PROPRIETARY</sub>
+
+Production engineering where the screen, the saved record and downstream state have to agree, checked across roles, viewports and accessibility audits.
+
+↳ [HealthVision case study](https://hismuq.vercel.app/work/healthvision)
+
+### 03 · REFUSAL WITHOUT ABANDONMENT
+<sub>RESEARCH INSTRUMENT · PUBLIC · PRELIMINARY</sub>
+
+A deterministic benchmark of how an assistant's refusal and escalation contracts keep scope, context and next action visible. 12 synthetic scenarios; tests the interface contract, not a model.
+
+↳ [Benchmark](https://hismuq.vercel.app/lab/refusal-benchmark) · [Methods](https://hismuq.vercel.app/lab/refusal-benchmark/methods)
 
 Some production healthcare systems I work on are proprietary, so this profile focuses on engineering patterns rather than internal implementation details.
 
 ## Approach
 
-**Scope before generation.** Know what the system must not answer, and who takes over when it stops.
+### 01 · SCOPE
+Scope before generation. Know what the system must not answer, and who takes over when it stops.
 
-**Evidence before confidence.** Trust in healthcare software comes from tests, traces and human review, not from assertion.
+### 02 · EVIDENCE
+Evidence before confidence. Trust in healthcare software comes from tests, traces and human review, not from assertion.
 
-**Failure gets a bounded outcome.** Every stop has a designed path: a refusal, a redirect or an escalation, never a catch-all answer.
+### 03 · FAILURE
+Failure gets a bounded outcome. Every stop has a designed path: a refusal, a redirect or an escalation, never a catch-all answer.
 
 ## Research direction
 
 I'm interested in making healthcare AI systems more reliable under real workflow constraints. These are open research questions, not published results, and none implies clinical validation.
 
-**01**  How do we evaluate whether a clinical assistant stays inside its authorized scope?
+### 01 · AUTHORIZATION
+How do we evaluate whether a clinical assistant stays inside its authorized scope?
 
-**02**  How should retrieval, tools and guardrails interact when an agent encounters uncertainty or conflicting evidence?
+### 02 · UNCERTAINTY
+How should retrieval, tools and guardrails interact when an agent encounters uncertainty or conflicting evidence?
 
-**03**  How can healthcare AI systems fail safely instead of merely producing more confident answers?
+### 03 · SAFE FAILURE
+How can healthcare AI systems fail safely instead of merely producing more confident answers?
 
 Working notes: [research brief](https://hismuq.vercel.app/research).
 
