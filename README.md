@@ -10,7 +10,7 @@
 
 </div>
 
-**I build AI systems for healthcare workflows where retrieval, tools, authorization, evaluation and escalation matter as much as the model itself.**
+**I build AI systems for healthcare workflows where authorization, tools, evaluation and escalation matter as much as the model itself.**
 
 I work on production healthcare software and EHR workflows, and on assistants that have to stay inside an authorized scope. Alongside that I run small research experiments on how clinical assistants should stop, refuse and hand off.
 
@@ -20,7 +20,7 @@ I work on production healthcare software and EHR workflows, and on assistants th
 Production healthcare software and AI-assisted workflows across EHR experiences.
 
 ### Agent systems
-Assistants that combine retrieval, tools, authorization boundaries and bounded outcomes.
+Assistants that combine tools, authorization boundaries and bounded outcomes.
 
 ### Reliability
 Evaluation, guardrails, failure handling and escalation for systems that need clear boundaries.
